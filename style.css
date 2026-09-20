@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f5;
+    color: #333;
+}
+header {
+    background: #7b2d3b;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.hero {
+    min-height: 450px;
+    padding: 70px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8dfe3;
+}
+.hero h1 {
+    font-size: 45px;
+    color: #7b2d3b;
+    max-width: 550px;
+}
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+button {
+    background: #7b2d3b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background: #531d28;
+}
+.hero-card {
+    background: white;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #0002;
+}
+.hero-card:first-letter {
+    font-size: 60px;
+}
+.section {
+    padding: 50px 8%;
+    text-align: center;
+}
+.section h2 {
+    color: #7b2d3b;
+    margin-bottom: 25px;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+}
+form input,
+form select,
+.search input {
+    width: 100%;
+    padding: 13px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.profiles {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #0002;
+}
+.profile h3 {
+    color: #7b2d3b;
+    margin-bottom: 10px;
+}
+.match-box {
+    background: #f8dfe3;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+footer {
+    background: #7b2d3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#message,
+#matchResult {
+    margin-top: 15px;
+    font-weight: bold;
+}
